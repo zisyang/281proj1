@@ -18,9 +18,6 @@ app.secret_key = os.environ.get("SECRET_KEY") or os.urandom(24)
 
 # User session management setup
 # https://flask-login.readthedocs.io/en/latest
-login_manager = LoginManager()
-login_manager.init_app(app)
-            
 
 @app.route("/ping")
 def ping():    
@@ -30,11 +27,6 @@ def ping():
 def pingRDS():    
     version = mysqlprovider.get_sql_version()
     return jsonify( {"version": version}), 200
-
-@app.route("/ping-auth")
-@login_required
-def pingAuth():    
-    return "message"
 
 @app.route("/departments")
 def get_department():
