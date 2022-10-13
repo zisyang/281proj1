@@ -37,22 +37,6 @@ def get_now():
     now = helper.get_current_timestamp_in_string()
     return jsonify(now), 200
 
-@app.route("/create_basic_user_profile", methods = ['POST'])
-def create_basic_user_profile():
-    json_data = request.get_json()  
-    result  = mysqlprovider.create_user_profile_basic(json_data)
-
-    return jsonify(result), 200
-
-@app.route("/create_address", methods=['POST'])    
-def add_address():
-    json_data = request.get_json()  
-    result  = mysqlprovider.add_address(json_data)
-    if( result.__contains__("Error")):
-        return jsonify(result) , 400
-    return jsonify(result), 200
-
-
 if __name__ == "__main__":   
     app.run(host='0.0.0.0', port=5001) #, ssl_context='adhoc')      
 
