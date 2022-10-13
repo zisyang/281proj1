@@ -1,0 +1,35 @@
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| file_id        | int          | NO   | PRI | NULL    | auto_increment |
+| filename       | varchar(45)  | NO   | PRI | NULL    |                |
+| user_email     | varchar(255) | NO   | PRI | NULL    |                |
+| user_firstname | varchar(255) | YES  |     | NULL    |                |
+| user_lastname  | varchar(45)  | YES  |     | NULL    |                |
+| upload_time    | timestamp    | NO   |     | NULL    |                |
+| update_time    | timestamp    | NO   |     | NULL    |                |
+| description    | varchar(255) | YES  |     | NULL    |                |
+| download_link  | varchar(45)  | YES  |     | NULL    |                |
+| is_delete      | tinyint      | YES  |     | 0       |                |
+| version        | int          | YES  |     | NULL    |                |
+
+file_id,
+is_delete,
+version,
+
+insert into files(filename,
+user_email,
+user_firstname,
+user_lastname,
+upload_time,
+update_time,
+description,
+download_link)
+values(
+"2_sunglass_face.jpg",
+"zishun.yang@sjsu.edu",
+"zi",
+"yang",
+"2022-10-11 23:06:43.620603",
+"2022-10-11 23:06:43.620603",
+"picture",
+"https://s3uploader-s3uploadbucket-na0z96kezgv2.s3.us-west-1.amazonaws.com/5634441.jpg");
