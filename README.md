@@ -76,3 +76,6 @@ to the row of record
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.49%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.36.17%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.55%20PM.png)
+
+## AWS Charges
+![](screenshots/Screen%20Shot%202022-10-16%20at%208.11.55%20PM.png)
