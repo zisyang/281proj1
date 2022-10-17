@@ -60,22 +60,22 @@ to the row of record
 ├── web/            <-- This is to run in web-tier EC2 instances
 ```
 
-## Screenshots of Test execution and result
+## Screenshots of the test and results
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.07.52%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.12.34%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.08.31%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.10%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.10.05%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.19%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.10.15%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.35%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.00%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.20.54%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.07%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.21.51%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.49%20PM.png)
-![](screenshots/Screen%20Shot%202022-10-13%20at%203.36.17%20PM.png)
 ![](screenshots/Screen%20Shot%202022-10-13%20at%203.11.55%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.12.34%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.21.51%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.36.17%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.10%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.19%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.15.35%20PM.png)
+![](screenshots/Screen%20Shot%202022-10-13%20at%203.20.54%20PM.png)
 
 ## AWS Charges
 ![](screenshots/Screen%20Shot%202022-10-16%20at%208.11.55%20PM.png)
