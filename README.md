@@ -15,7 +15,7 @@ download the fie. (Read/ List Page)
   - User also can download the file by clicking the download button associate
 to the row of record
 - Update already uploaded files. (Update Page)
-  - After user download the file and modify, user can upload the modified on under same file name, then system will create a new version for that file
+  - After user download the file and modify, user can upload the modified on under same file name, then system will record a new version for that file
 - Delete already uploaded file (Delete Page)
   - User can delete the uploaded file from the after list
 
