@@ -32,6 +32,27 @@ to the row of record
 ## Architecture Diagram
 ![](architecture_diagram.png)
 
+## Database ERR Diagram
+![](app/SQL/database281.png)
+
+### MYSQL Table
+```
+DESC files;
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| file_id        | int          | NO   | PRI | NULL    | auto_increment |
+| filename       | varchar(45)  | NO   | PRI | NULL    |                |
+| user_email     | varchar(255) | NO   | PRI | NULL    |                |
+| user_firstname | varchar(255) | YES  |     | NULL    |                |
+| user_lastname  | varchar(45)  | YES  |     | NULL    |                |
+| upload_time    | timestamp    | NO   |     | NULL    |                |
+| update_time    | timestamp    | NO   |     | NULL    |                |
+| description    | varchar(255) | YES  |     | NULL    |                |
+| download_link  | varchar(45)  | YES  |     | NULL    |                |
+| is_delete      | tinyint      | YES  |     | 0       |                |
+| version        | int          | YES  |     | NULL    |                |
+```
+
 ## Prerequisites of AWS Services:
 - Cognito
 - VPC
